@@ -29,8 +29,9 @@ GPIO.setup(sensorPin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 prevState = False
 currState = False
 
-## set the size and framerate for the video - note the 1296, 730 gives a full field of view (FOV)
+## initialise the pi camera
 cam = picamera.PiCamera()
+## set the size and framerate for the video - note the 1296, 730 gives a full field of view (FOV)
 cam.resolution = (1296, 730)
 cam.framerate = 25
 ##we get more consistent images when this is off but good to experiment
@@ -59,4 +60,3 @@ while True:
 				os.system('rm -f %s' % fileName)
 			else:
 				convertDrop(fileName,fileSize)
-   
