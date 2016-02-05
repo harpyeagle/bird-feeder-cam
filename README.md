@@ -16,4 +16,4 @@ Raspberry Pi Camera Module
 
 PIR
 
-Bird Feeder
+Bird Feeder Box
