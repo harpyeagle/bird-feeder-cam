@@ -6,10 +6,13 @@ Raspberry Pi, with Camera Module and PIR built into a bird feeder.
 
 When the PIR is tripped (motion detected), the pi recordes a video. When the PIR returns to its orignal state (motion stops), the video is coverted into an mp4 and uploaded to dropbox.
 
-#Dependencies
-Picamera - https://picamera.readthedocs.org/en/release-1.10/
+# Dependencies
+Picamera 
+- https://picamera.readthedocs.org/en/release-1.10/
 
-MP4BOX ( For Conversion to mp4 ) - https://www.raspberrypi.com/documentation/accessories/camera.html#mp4-video-format
+MP4BOX ( For Conversion to mp4 ) 
+- https://www.raspberrypi.com/documentation/accessories/camera.html#mp4-video-format
 
-dropbox_uploader.sh - https://github.com/andreafabrizi/Dropbox-Uploader
+dropbox_uploader.sh 
+- https://github.com/andreafabrizi/Dropbox-Uploader
 
